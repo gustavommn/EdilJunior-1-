@@ -1,0 +1,178 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d366d;
+    color: #ffffff;
+    padding: 5px;
+    font-family: Constantia;
+    
+}
+header h1 {
+    margin-right: 20px; /* Adiciona uma margem à direita do texto */
+}
+
+.logo img {
+    max-width: 100px;
+}
+.logo p {
+    font-size: 15px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+.center {
+    flex-grow: 1;
+    text-align: center;
+    margin-right: -200px;
+}
+
+.links a {
+    font-size: 14px;
+    margin-left: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-decoration: underline;
+    padding-top: 100px
+}
+
+
+
+body {
+    margin: 0; /* Remover a margem padrão */
+    padding: 0;
+    font-family: Roboto, sans-serif;
+
+}
+.background-image {
+    background-image: url("/images/14F022FA-EE7F-4133-8A4C-600EDCE1D712.png"); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 60px); /* Altura total da tela (viewport height) menos a altura do cabeçalho */
+}
+#produtos {
+    text-align: center;
+    font-family: Georgia, sans-serif;
+    width: 100%; /* Define a largura da seção como 100% da largura da tela */
+    margin: 40px 0 0; /* Remove as margens */
+    padding: 0; /* Remove o preenchimento */
+
+}
+
+.produto {
+    display: inline-block;
+    margin: 30px 10px 200px; /* Espaçamento entre os produtos */
+}
+
+.produto img {
+    width: 400px; /* Defina a largura desejada para as imagens */
+    height: auto; /* Mantenha a altura automática para manter a proporção */
+    margin-bottom: 5px;
+}
+
+.produto p {
+    margin-top: 20px; /* Espaçamento entre a imagem e a descrição do produto */
+    max-width: 400px;
+   
+}
+
+
+.mensagem-chamativa {
+    position: absolute;
+    left: 5%; /* Ajuste conforme desejado */
+    top: 70%; /* Centraliza verticalmente */
+    transform: translateY(-50%);
+    color: #ffffff; /* Cor do texto */
+    font-size: 1em; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    text-align: left; /* Alinhamento à esquerda */
+    z-index: 1; /* Garante que a mensagem esteja acima da imagem de fundo */
+    max-width: 30%;
+    font-family: Constantia;
+}
+.paragrafo-abaixo {
+    position: absolute;
+    left: 5%;
+    top: 87%; /* Ajuste conforme desejado */
+    transform: translateY(-50%);
+    color: #ffffff;
+    font-size: 1.1em; /* Tamanho da fonte menor */
+    font-weight: bold; /* Negrito */
+    text-align: left; /* Alinhamento à esquerda */
+    text-align: left;
+    z-index: 1;
+    max-width: 20%; /* Defina o limite máximo de largura */
+    font-family: proxima nova;
+}
+#quem-sou {
+    display: flex; /* Torna o contêiner um flex container */
+    flex-direction: column; /* Alinha os itens em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    text-align: center; /* Centraliza o texto */
+    font-family: Constantia;
+    background-color: #1d366d;
+    color: #ffffff; /* Cor do texto branco */
+    padding: 50px; /* Adiciona um espaçamento interno à seção */
+    background-size: cover;
+    height: 100vh; /* Altura total da tela */
+    line-height: 1.5; /* Espaçamento entre linhas */
+}
+
+
+
+#quem-sou h2 {
+    font-size: 24px; /* Tamanho do título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+#quem-sou .container {
+    display: flex;
+    align-items: center; /* Centraliza os itens verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    max-width: 30%;
+    margin: 0 auto; /* Centraliza o contêiner na página */
+}
+
+#quem-sou img {
+    max-width: 300px; /* Define a largura máxima como 100% do contêiner pai */
+    height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+}
+
+#quem-sou .text p {
+    
+    text-align: justify; /* Justifica o texto */
+    max-width: 600px; /* Largura máxima do texto ajustada */
+    font-size: 20px; /* Tamanho da fonte */
+    line-height: 1.0; /* Espaçamento entre linhas */
+
+}
+#contato {
+    text-align: center; /* Alinha horizontalmente */
+    font-family: Constantia;
+    background-color: #7eacd1;
+    color: #1d366d;
+    padding: 20px 0; /* Ajuste o padding conforme necessário */
+    /* Outras propriedades CSS */
+}
+
+.contact-info {
+    display: flex; /* Usa flexbox */
+    max-width: 800px; /* Define a largura máxima para o bloco de informações */
+    margin: 0 auto; /* Centraliza horizontalmente */
+
+    padding: 20px; /* Adiciona espaçamento interno */
+    color: #1d366d;
+}
+
+.contact-info p {
+    margin-right: 50px; /* Adiciona margem maior entre os parágrafos */
+    color: #1d366d;
+}
+
+.contact-info a {
+    margin-right: 50px; /* Adiciona margem maior entre os links */
+}
+
+.contact-info p:last-child,
+.contact-info a:last-child {
+    margin-right: 0; /* Remove a margem do último elemento para evitar espaçamento extra */
+}
